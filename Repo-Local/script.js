@@ -6,4 +6,4 @@ bannerActual = (bannerActual + 1) % 2;
 document.querySelector('#mensagem').textContent =
 banners[bannerActual];
 }
-setInterval(trocaBanner, 2000);
+setInterval(trocaBanner, 1000);
