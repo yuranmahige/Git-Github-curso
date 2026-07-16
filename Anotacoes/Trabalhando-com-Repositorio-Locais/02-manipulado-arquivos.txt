@@ -19,6 +19,8 @@ Se mudarmos o nome / movemos o arquivo para outro local, o git vai considerar qu
 Para renomear usamos o comando:
 
 	git mv nome.arquivo novo-nome.arquivo
+	
+
 
 E para mover usamos o mesmo comando, vamos supor que queremos mover o AulaHoje.txt para o directorio Aulas. e importante que o directorio exista antes de movermos.
 entao para mover usamos o comando:
@@ -30,6 +32,10 @@ entao para mover usamos o comando:
 		arquivo a     Directorio requerido + arquivo a ser movido
 		ser movido
 		
+
+Para renomear ou mover um arquivo que contem espacos no nome, usamos as aspas ex: git mv "Aprendendo Docker.txt" Dockerizando.txt
+
+Note que o arquivo a ser renomeado era separado por espacos.
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 	##Desfazendo Alteracoes
